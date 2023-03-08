@@ -1,6 +1,6 @@
 .myGrid {
     height: 100vh;
-    background-image: url("https://www.bluemoongame.com/wp-content/uploads/2018/08/Meal-1.jpg");
+    background-image: url("http://cdn.shopify.com/s/files/1/0176/7420/7304/products/TKH1611.jpg?v=1652413192");
     background-repeat: space;
     background-position:left top;
     background-size: cover;
@@ -16,32 +16,18 @@
 }
 
 .item1 {
-    color: white;
+    color: whitesmoke;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
     padding: 20px;
 }
 .item {
-    color: white;
+    color: whitesmoke;
     font-weight: 500;
     font-size: 30px;
     font-style: italic;
     padding: 20px;
-}
-
-/* .item:nth-of-type(2) {
-    height: 100px;
-    width: 100px;
-    align-self: center;
-    justify-self: center;
-} */
-.item:nth-of-type(1) {
-    background-color: black;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    /* grid-column: 1 / 3; */
-    /* grid-column: 1 / span(2); */
 }
 .item:nth-of-type(2):hover {
     background-image: url(https://images.squarespace-cdn.com/content/v1/5c70ec0901232c4e903de85a/1551247695453-KA5TLPWOFP9YRFX67O4E/cap029.jpg?format=1000w);
@@ -85,7 +71,7 @@
 }
 .myGrid h1 {
     font-family: "HarryPotter-ov4z";
-    color: white;
+    color: whitesmoke;
     text-align: center;
     padding-top: 1.5%;
     font-size: 2.3rem;
