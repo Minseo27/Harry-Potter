@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,26 +10,30 @@
 }
 
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: black;
 }
 
-li {
+li1, li2, li3, li4 {
   float: left;
   display: block;
   text-align: center;
   padding: 14px 16px;
 }
 
-li:hover {
-  background-color: yellow;
+li1:hover {
+  background-color: red;
+}
+li2:hover {
+  background-color: darkgreen;
+}
+li3:hover {
+  background-color: orange;
+}
+li4:hover {
+  background-color: rgb(35, 99, 218);
 }
 
-.font-face-gm {
-  font-family: "HarryPotter-ov4z";
- }
- 
 

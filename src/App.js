@@ -1,9 +1,9 @@
 import './App.css';
 import Main from './components/main';
 import Dorm from './components/Dorm';
+import Cafeteria from './components/Cafeteria';
 /*
 import Attraction from './components/Attraction';
-import Restaurant from './components/Restaurant';
 */
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
@@ -11,12 +11,13 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" elements={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Main />} />
-          <Route path="Dorm" element={<Dorm />} />
+          <Route path="dorm" element={<Dorm />} />
+          <Route path="cafeteria" element={<Cafeteria />} />
           <Route path="*" element={<NoMatch />} />
-          </Route>
-          </Routes> </div>
+        </Route>
+      </Routes> </div>
   );
 }
 
@@ -27,15 +28,18 @@ function Layout() {
     <div>
       <nav>
         <ul>
-          <li>
+          <li1>
             <Link style={navStyle} to="/">Main</Link>
-          </li>
-          <li>
-            <Link style={navStyle} to="/Dorm">Dorm</Link>
-          </li>
-          <li>
+          </li1>
+          <li2>
+            <Link style={navStyle} to="/dorm">Dorm</Link>
+          </li2>
+          <li3>
+            <Link style={navStyle} to="/cafeteria">Cafeteria</Link>
+          </li3>
+          <li4>
             <Link style={navStyle} to="/nothing-here">Nothing Here</Link>
-          </li>
+          </li4>
         </ul>
       </nav>
 

@@ -1,22 +1,24 @@
-import './Dorm.css';
-import gryffindor from './img/B1C10M1_Gryffindor_Dormitory.jpeg';
+import './css/Dorm.css';
+import gryffindor from './img/room.jpeg';
 import Hufflepuff from './img/Hufflepuff_common_room_HL.jpeg';
 import Ravenclaw from './img/Ravenclaw_common_room_HL.jpeg';
 import Slytherin from './img/Slytherin_common_room_HL.jpeg';
 
 import Card from './Card';
 
-const description = `This is the room for gryffindor students.`
-
 function Dorm() {
     return (
         <div className='main'>
             <div className='header'>
-                <h1>Dorm</h1>
-                <h3>Harry Potter Domitory</h3>
+                <h1>Hogwarts School of Witchcraft and Wizardry</h1>
+                <h3>You can explore dormitory rooms of Hogwarts</h3>
             </div>
             <div className="gry">
-                <Card img={gryffindor} description={description} />
+                <Card img={gryffindor} alt="gryffin dorm" />
+                <p>
+                This is the room for gryffindor students.
+                </p>
+            </div>
             <div className="huff">
                 <Card img={Hufflepuff} alt="huff dorm" />
                 <p>
@@ -35,7 +37,6 @@ function Dorm() {
                     This is the room for Slytherin students.
                 </p>
             </div>
-        </div>
         </div>
     );
 }
