@@ -8,7 +8,6 @@
 .container {
     max-width: 960px;
     margin: 100px auto;
-    padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 300px);
     gap: 10px;

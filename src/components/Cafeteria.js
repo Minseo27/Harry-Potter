@@ -1,9 +1,12 @@
 import './css/Cafeteria.css';
 
+const myStyle = {color: "white"};
 function Cafeteria() {
   return (
     <div className="myGrid">
       <h1>Hogwarts Cafeteria</h1>
+      <div>""</div>
+      <h2 style={myStyle}>Menu</h2>
       <div className="container">
         <div className="item1">
         Put the cursor on each menu. You could see the picture of items.
