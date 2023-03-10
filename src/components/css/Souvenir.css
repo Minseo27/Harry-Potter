@@ -1,0 +1,54 @@
+.shop h1 {
+    font-family: "HarryPotter-ov4z";
+    color: silver;
+    padding-top: 2.0%;
+    font-size: 2.5rem;
+}
+.shop h2 {
+    color: white;
+    font-size: 1rem;
+}
+
+.shop table {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop td {
+    border: 1px ridge;
+    border-color: darkgoldenrod;
+    padding: 10px;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.shop td img {
+    width:300px;
+    height:200px;
+}
+.shop button {
+    font-size: 1rem;
+    background-color: rgb(159, 202, 231);
+    border: 0;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-style: italic;
+    margin-left: 0px;
+    box-shadow: 3px 3px 3px rgb(109, 109, 109), -3px -3px 3px rgb(237, 237, 237);
+}
+.shop div {
+    color:gold;
+}
+.shop div1 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.shop button+button {
+    margin-left: 300px;
+}
