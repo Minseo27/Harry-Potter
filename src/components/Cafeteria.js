@@ -5,7 +5,7 @@ function Cafeteria() {
   return (
     <div className="myGrid">
       <h1>Hogwarts Cafeteria</h1>
-      <div>""</div>
+      <div></div>
       <h2 style={myStyle}>Menu</h2>
       <div className="container">
         <div className="item1">

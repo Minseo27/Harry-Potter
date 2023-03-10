@@ -1,6 +1,8 @@
 .content h1 {
     font-family: "HarryPotter-ov4z";
-    color: white;
+    color: silver;
+    padding-top: 2.0%;
+    font-size: 2.5rem;
 }
 .content h2 {
     color: white;
