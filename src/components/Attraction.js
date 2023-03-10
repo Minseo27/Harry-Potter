@@ -20,12 +20,12 @@ function Attraction() {
             
             <tr>
             <td> <div style={styles}>Quidditch</div>
-                <div1>Quidditch is a wizarding sport played on flying broomsticks. It's most popular game
+                <div className="div1">Quidditch is a wizarding sport played on flying broomsticks. It's most popular game
                   among wizards. The game was played by two teams with seven members each.
-                  The object of the game was to score more points than the opposing team.</div1> </td>
+                  The object of the game was to score more points than the opposing team.</div> </td>
             <td> <div style={styles}>Triwizard Maze</div>
-                <div1>Triwizard Maze is the third task of Hogwarts Quidditch pitch. The first Champion to successfully navigate the maze
-                  and reach the Cup would be declared the winner.</div1> </td>
+                <div className="div1">Triwizard Maze is the third task of Hogwarts Quidditch pitch. The first Champion to successfully navigate the maze
+                  and reach the Cup would be declared the winner.</div> </td>
         </tr>
     </table>
       </div>
