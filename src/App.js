@@ -2,9 +2,8 @@ import './App.css';
 import Main from './components/main';
 import Dorm from './components/Dorm';
 import Cafeteria from './components/Cafeteria';
-/*
 import Attraction from './components/Attraction';
-*/
+import Souvenir from './components/Souvenir';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 export default function App() {
@@ -15,6 +14,8 @@ export default function App() {
           <Route index element={<Main />} />
           <Route path="dorm" element={<Dorm />} />
           <Route path="cafeteria" element={<Cafeteria />} />
+          <Route path="attraction" element={<Attraction />} />
+          <Route path="souvenir" element={<Souvenir />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes> </div>
@@ -28,18 +29,24 @@ function Layout() {
     <div>
       <nav>
         <ul>
-          <li1>
+          <li className="li1">
             <Link style={navStyle} to="/">Main</Link>
-          </li1>
-          <li2>
+          </li>
+          <li className="li2">
             <Link style={navStyle} to="/dorm">Dorm</Link>
-          </li2>
-          <li3>
+          </li>
+          <li className="li3">
             <Link style={navStyle} to="/cafeteria">Cafeteria</Link>
-          </li3>
-          <li4>
+          </li>
+          <li className="li4">
+            <Link style={navStyle} to="/attraction">Attraction</Link>
+          </li>
+          <li className="li5">
+            <Link style={navStyle} to="/souvenir">Souvenir</Link>
+          </li>
+          <li className="li6">
             <Link style={navStyle} to="/nothing-here">Nothing Here</Link>
-          </li4>
+          </li>
         </ul>
       </nav>
 
@@ -51,11 +58,13 @@ function Layout() {
 
 function NoMatch() {
   return (
+    <div className="nothing">
     <div>
-      <h2>Nothing to see here!</h2>
       <p>
-        <Link to="/">Go to the home page</Link>
+        <h1 style={{walign: "center", padding:"10px", color:"white"}}>Nothing here</h1>
+        <a style={{align: "center", color: "white"}}href="\">Back to Main</a>
       </p>
+    </div>
     </div>
   );
 }

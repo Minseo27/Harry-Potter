@@ -5,35 +5,48 @@ body {
 
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
 }
 
 ul {
+  width: 100%;
   margin: 0;
-  padding: 0;
+  top: 0;
+  width: 100%;
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(98, 44, 148);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: dotted;
+  border-color: aliceblue;
+  position: fixed;
 }
 
-li1, li2, li3, li4 {
+.li1, .li2, .li3, .li4, .li5, .li6{
   float: left;
   display: block;
   text-align: center;
   padding: 14px 16px;
 }
 
-li1:hover {
+.li1:hover {
   background-color: red;
 }
-li2:hover {
+.li2:hover {
   background-color: darkgreen;
 }
-li3:hover {
+.li3:hover {
   background-color: orange;
 }
-li4:hover {
+.li4:hover {
   background-color: rgb(35, 99, 218);
+}
+.li5:hover {
+  background-color: navy;
+}
+.li6:hover {
+  background-color: black;
 }
 
 
