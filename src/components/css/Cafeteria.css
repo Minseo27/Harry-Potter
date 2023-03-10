@@ -1,0 +1,77 @@
+.myGrid {
+    height: 100vh;
+    background-image: url("http://cdn.shopify.com/s/files/1/0176/7420/7304/products/TKH1611.jpg?v=1652413192");
+    background-repeat: space;
+    background-position:left top;
+    background-size: cover;
+}
+.container {
+    max-width: 960px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 10px;
+    grid-auto-rows: minmax(150px,auto); 
+}
+
+.item1 {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    padding: 20px;
+}
+.item {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: italic;
+    padding: 20px;
+}
+.item:nth-of-type(2):hover {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5c70ec0901232c4e903de85a/1551247695453-KA5TLPWOFP9YRFX67O4E/cap029.jpg?format=1000w);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+.item:nth-of-type(3):hover {
+    background-image: url(https://fjrtitchenell.weebly.com/uploads/1/5/2/1/15216942/3525247.jpg?480);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+.item:nth-of-type(4):hover {
+    background-image: url(https://i0.wp.com/www.feastofstarlight.com/wp-content/uploads/2015/08/Harry-Potter-Dudley-Knickerbocker-Glory-2.jpg);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+.item:nth-of-type(5):hover {
+    background-image: url(https://i.pinimg.com/474x/d2/ba/a4/d2baa4d6b8a6ba5c8e277dad26c02a0a.jpg);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+.item:nth-of-type(6):hover {
+    background-image: url(https://vegnews.com/media/19889/VegNews.Butterbeer.jpg);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+.item:nth-of-type(7):hover {
+    background-image: url(https://pm1.narvii.com/6693/491ba361f7d3a7dbaaa5e56f6c23137ad79e0612_hq.jpg);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+.item:nth-of-type(8):hover {
+    background-image: url(http://img4.wikia.nocookie.net/__cb20110107153814/harrypotter/images/2/23/Pudding.png);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+.item:nth-of-type(9):hover {
+    background-image: url(https://pbs.twimg.com/media/BS2do6UCEAEqFMK.jpg);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+.myGrid h1 {
+    font-family: "HarryPotter-ov4z";
+    color: silver;
+    text-align: center;
+    padding-top: 2.0%;
+    font-size: 2.5rem;
+}
