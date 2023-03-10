@@ -29,8 +29,10 @@
     font-size: 1.5rem;
 }
 
-.content div1 {
+.content .div1 {
     color: white;
     font-size: 1rem;
     text-align: center;
 }
+
+
